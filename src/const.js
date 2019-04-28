@@ -1,5 +1,5 @@
 export const actions = {
-    content: 'content',
+  content: 'content',
 
   updateHeight: 'UPDATE_HEIGHT',
 
@@ -22,6 +22,7 @@ export const actions = {
   insertOrderedList: 'orderedList',
   insertLink: 'link',
   insertImage: 'image',
+  toggleKeyboard: 'keyboard',
   setSubscript: 'subscript',
   setSuperscript: 'superscript',
   setStrikethrough: 'strikeThrough',
@@ -40,9 +41,8 @@ export const actions = {
   init: 'ZSSS_INIT',
   setEditorHeight: 'SET_EDITOR_HEIGHT',
   setFooterHeight: 'SET_FOOTER_HEIGHT',
-  setPlatform: 'SET_PLATFORM'
+  setPlatform: 'SET_PLATFORM',
 };
-
 
 export const messages = {
   CONTENT_HTML_RESPONSE: 'CONTENT_HTML_RESPONSE',
